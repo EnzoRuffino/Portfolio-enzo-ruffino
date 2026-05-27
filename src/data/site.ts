@@ -69,16 +69,14 @@ export const projects: Project[] = [
     description:
       "Platform that helps e-commerce businesses automatically improve their product listings. (currently under development)",
     tags: ["TypeScript", "Vue", "Node"],
-    image:
-      "../../public/opti_logo.png",
+    image: "/opti_logo.png",
   },
   {
     id: "02",
     title: "DebtLint",
     description: "Debtlint is a technical debt detection tool focused on duplicated logic, built for the era of AI code generation.",
     tags: ["Rust"],
-    image:
-      "../../public/logo.png",
+    image: "/logo.png",
     githubUrl: "https://github.com/PoCInnovation/Debtlint",
   },
   {
@@ -87,7 +85,7 @@ export const projects: Project[] = [
     description: "A modular C++ ray tracer that parses scenes, renders 3D objects with lighting, and outputs images using an extensible plugin-based architecture.",
     tags: ["C++"],
     image:
-      "portfolio-raytracer.png",
+      "box_8k.png",
     githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-raytracer-6",
   },
   {
