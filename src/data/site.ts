@@ -84,43 +84,57 @@ export const projects: Project[] = [
     title: "RayTracer",
     description: "A modular C++ ray tracer that parses scenes, renders 3D objects with lighting, and outputs images using an extensible plugin-based architecture.",
     tags: ["C++"],
-    image:
-      "box_8k.png",
+    image: "/box_8k.png",
     githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-raytracer-6",
   },
   {
     id: "04",
-    title: "CV.IA",
-    description: "We built an AI-powered recruitment assistant that analyzes CVs, understands company needs in natural language, and instantly matches the most relevant candidates.",
-    tags: ["Python", "JS", "OpenHosta"],
-    image:
-      "portfolio-analyseur.png",
+    title: "Zappy",
+    description:
+      "Zappy is a networked multiplayer game where AIs evolve on a map, gather resources, communicate, perform rituals to level up, and try to win for their team. I built the 2D isometric GUI in C++/SFML: it connects to the server, interprets the network protocol in real time, and renders the world state (map, players, resources, animations, HUD, and visual effects).",
+    tags: ["C++", "SFML", "Network"],
+    image: "/zappy.png",
+    githubUrl: "https://github.com/EpitechPGE2-2025/G-YEP-400-LYN-4-1-zappy-8",
   },
   {
     id: "05",
+    title: "Arcade",
+    description:
+      "Arcade is a modular C++ game engine where games and graphical libraries are loaded dynamically as shared libraries (.so) via dlopen/dlsym. The Core orchestrates execution and lets you hot-swap games or display backends without restarting, while each module implements a common interface (IGame, IDisplayLibrary, IMenu).",
+    tags: ["C++", "dlopen", "OOP"],
+    image: "/arcade.png",
+    githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-arcade-13",
+  },
+  {
+    id: "06",
+    title: "CV.IA",
+    description: "We built an AI-powered recruitment assistant that analyzes CVs, understands company needs in natural language, and instantly matches the most relevant candidates.",
+    tags: ["Python", "JS", "OpenHosta"],
+    image: "/portfolio-analyseur.png",
+  },
+  {
+    id: "07",
     title: "Start Trek RL",
     description: "A PyTorch DQN agent learns to land a lunar module in Gymnasium’s LunarLander environment through reinforcement learning.",
     tags: ["Python"],
     video: "/portfolio-startrek.mp4",
   },
   {
-    id: "06",
+    id: "08",
     title: "CVRIE",
     description: "Two ML pipelines applied to medical data: supervised classification (KNN, Logistic Regression, LinearSVC) to detect pneumonia from X-ray images, and unsupervised clustering (K-Means) to group patients by symptom.",
     tags: ["Python"],
-    image:
-      "/pneu.jpg",
+    image: "/pneu.jpg",
   },
   {
-    id: "07",
+    id: "09",
     title: "Top Chrono !",
     description: "Top Chrono is a gamified VS Code productivity extension that rewards developers for staying focused, managing breaks, and building discipline through ranks, medals, and customizable work modes..",
     tags: ["Typescript"],
-    image:
-      "top1.png",
+    image: "/top1.png",
   },
   {
-    id: "08",
+    id: "10",
     title: "Project in progress ... 🤫",
     description: "coming soon...",
     tags: ["???", "???"],
@@ -200,7 +214,7 @@ export const passions = [
 
 export const heroStats = [
   { value: "2+", label: "Années d'expérience" },
-  { value: "8+", label: "Projets réalisés" },
+  { value: "10+", label: "Projets réalisés" },
   { value: "10+", label: "Technologies" },
   { value: "5+", label: "Hackathons" },
 ] as const;
