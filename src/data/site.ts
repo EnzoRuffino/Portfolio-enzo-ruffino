@@ -194,7 +194,7 @@ export const passions = [
     stat: "∞",
     statLabel: "lignes de code",
     description:
-      "J'aime construire des produits de A à Z, expérimenter avec de nouvelles technos et pousser mes projets jusqu'au déploiement.",
+      "I love building products from A to Z, experimenting with new technologies, and pushing my projects all the way to deployment.",
   },
   {
     title: "Rap, R&B, Pop, Hip-Hop",
