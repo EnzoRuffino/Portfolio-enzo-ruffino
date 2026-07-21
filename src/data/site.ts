@@ -91,7 +91,7 @@ export const projects: Project[] = [
     id: "04",
     title: "Zappy",
     description:
-      "Zappy is a networked multiplayer game where AIs evolve on a map, gather resources, communicate, perform rituals to level up, and try to win for their team. I built the 2D isometric GUI in C++/SFML: it connects to the server, interprets the network protocol in real time, and renders the world state (map, players, resources, animations, HUD, and visual effects).",
+      "Networked multiplayer game where AIs evolve on a map, gather resources, and level up through rituals. I built the 2D isometric GUI in C++/SFML that renders the world state in real time.",
     tags: ["C++", "SFML", "Network"],
     image: "/zappy.png",
     githubUrl: "https://github.com/EpitechPGE2-2025/G-YEP-400-LYN-4-1-zappy-8",
@@ -100,7 +100,7 @@ export const projects: Project[] = [
     id: "05",
     title: "Arcade",
     description:
-      "Arcade is a modular C++ game engine where games and graphical libraries are loaded dynamically as shared libraries (.so) via dlopen/dlsym. The Core orchestrates execution and lets you hot-swap games or display backends without restarting, while each module implements a common interface (IGame, IDisplayLibrary, IMenu).",
+      "Modular C++ game engine that loads games and graphical libraries dynamically via .so files. The Core hot-swaps games and display backends at runtime through common interfaces.",
     tags: ["C++", "dlopen", "OOP"],
     image: "/arcade.png",
     githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-arcade-13",
