@@ -37,8 +37,7 @@ export function Contact() {
       </div>
 
       <p className="mt-20 font-mono text-xs text-muted">
-        © {new Date().getFullYear()} {site.name.toUpperCase()} — Built with React
-        & GSAP
+        © {new Date().getFullYear()} {site.name.toUpperCase()}
       </p>
     </footer>
   );
