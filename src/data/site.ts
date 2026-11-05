@@ -5,6 +5,7 @@ export const site = {
   cv: "/CV_PART_TIME_09.pdf",
   github: "https://github.com/EnzoRuffino",
   linkedin: "https://www.linkedin.com/in/enzo-ruffino-06a80b2a8/",
+  debtlint: "https://debtlint.com",
   profileImage: "/profile.png",
   pocUrl: "https://poc-innovation.fr/",
   epitechUrl: "https://www.epitech.eu/",
@@ -81,14 +82,6 @@ export const projects: Project[] = [
   },
   {
     id: "03",
-    title: "OptiCatalog",
-    description:
-      "Platform that helps e-commerce businesses automatically improve their product listings. (currently under development)",
-    tags: ["TypeScript", "Vue", "Node"],
-    image: "/opti_logo.png",
-  },
-  {
-    id: "04",
     title: "DebtLint",
     description: "Debtlint is a technical debt detection tool focused on duplicated logic, built for the era of AI code generation.",
     tags: ["Rust"],
@@ -97,7 +90,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/PoCInnovation/Debtlint",
   },
   {
-    id: "05",
+    id: "04",
     title: "RayTracer",
     description: "A modular C++ ray tracer that parses scenes, renders 3D objects with lighting, and outputs images using an extensible plugin-based architecture.",
     tags: ["C++"],
@@ -105,7 +98,7 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-raytracer-6",
   },
   {
-    id: "06",
+    id: "05",
     title: "Zappy",
     description:
       "Networked multiplayer game where AIs evolve on a map, gather resources, and level up through rituals. I built the 2D isometric GUI in C++/SFML that renders the world state in real time.",
@@ -114,13 +107,21 @@ export const projects: Project[] = [
     githubUrl: "https://github.com/EpitechPGE2-2025/G-YEP-400-LYN-4-1-zappy-8",
   },
   {
-    id: "07",
+    id: "06",
     title: "Arcade",
     description:
       "Modular C++ game engine that loads games and graphical libraries dynamically via .so files. The Core hot-swaps games and display backends at runtime through common interfaces.",
     tags: ["C++", "dlopen", "OOP"],
     image: "/arcade.png",
     githubUrl: "https://github.com/EpitechPGE2-2025/G-OOP-400-LYN-4-1-arcade-13",
+  },
+  {
+    id: "07",
+    title: "OptiCatalog",
+    description:
+      "Platform that helps e-commerce businesses automatically improve their product listings. (currently under development)",
+    tags: ["TypeScript", "Vue", "Node"],
+    image: "/opti_logo.png",
   },
   {
     id: "08",
@@ -164,49 +165,49 @@ export const experiences = [
   {
     company: "PoC Innovation",
     role: "Head of Software",
-    period: "Août 2026 — Present",
+    period: "Août 2026 to Present",
     description:
-      "Leading the software team at PoC Innovation: technical direction, project ownership, and delivery of open-source and R&D initiatives.",
+      "In charge of the events side at PoC Innovation: organizing hackathons (MIT, Meta, Mistral, and more) and running full stack workshops.",
   },
   {
     company: "PoC Innovation",
     role: "R&D Developer",
-    period: "Avril 2026 — Present",
+    period: "Avril 2026 to Present",
     description:
       "Contributing to R&D initiatives and innovative open-source projects at PoC, a student innovation center.",
   },
   {
     company: "EPITECH / TEK3",
     role: "Étudiant développeur",
-    period: "Septembre 2024 — Present",
+    period: "Septembre 2024 to Present",
     description:
       "Technical projects, C/C++ bootcamps, web development, AI, and systems programming.",
   },
   {
     company: "iLevel",
     role: "Full Stack Developer / Stage",
-    period: "Août 2025 — Décembre 2025",
+    period: "Août 2025 to Décembre 2025",
     description:
       "Developed internal tools to improve productivity and automate business workflows (complete ERP).",
   },
   {
     company: "Junior Conseil Taker",
     role: "National Sales Manager",
-    period: "Juillet 2025 — Novembre 2025",
+    period: "Juillet 2025 to Novembre 2025",
     description:
       "Structured, coordinated, and led commercial operations to uncover new opportunities, build an ambitious team, and drive sustainable revenue growth.",
   },
   {
     company: "Junior Conseil Taker",
     role: "Business Developer",
-    period: "mai 2025 — juillet 2025",
+    period: "mai 2025 to juillet 2025",
     description:
       "Connected company needs with tomorrow's tech talent, from prospecting and scoping missions to delivering student-led consulting projects.",
   },
   {
     company: "Le Carré d'Herbe",
     role: "Kitchen Assistant",
-    period: "juin 2024 — septembre 2024",
+    period: "juin 2024 to septembre 2024",
     description:
       "Learned the fundamentals of cooking, pastry, and customer service in a fast-paced environment.",
   },

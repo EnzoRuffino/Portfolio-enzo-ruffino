@@ -79,7 +79,7 @@ export function Hero() {
 
       <p className="hero-reveal mt-8 max-w-2xl text-lg leading-relaxed text-white/60">
         Hello ! I'm <span className="text-white">{site.name}</span>
-        <span className="text-white/50"> — </span>
+        {". "}
         {site.roleLine.map((part, i) =>
           part.type === "link" ? (
             <a
@@ -111,6 +111,14 @@ export function Hero() {
           className="rounded-full border border-border px-8 py-3 font-mono text-sm text-white/80 transition-colors hover:border-accent/50 hover:text-accent"
         >
           GitHub
+        </a>
+        <a
+          href={site.debtlint}
+          target="_blank"
+          rel="noreferrer"
+          className="rounded-full border border-border px-8 py-3 font-mono text-sm text-white/80 transition-colors hover:border-accent/50 hover:text-accent"
+        >
+          DebtLint
         </a>
       </div>
 
