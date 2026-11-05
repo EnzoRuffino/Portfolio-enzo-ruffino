@@ -238,7 +238,7 @@ export const passions = [
 ] as const;
 
 export const heroStats = [
-  { value: "2+", label: "Années d'expérience" },
+  { value: "3+", label: "Années d'expérience" },
   { value: "12+", label: "Projets réalisés" },
   { value: "10+", label: "Technologies" },
   { value: "5+", label: "Hackathons" },
