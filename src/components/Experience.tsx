@@ -36,7 +36,7 @@ export function Experience() {
       <div className="mt-14 space-y-0">
         {experiences.map((exp) => (
           <article
-            key={exp.company}
+            key={`${exp.company}-${exp.role}`}
             className="exp-item grid gap-4 border-t border-border py-8 sm:grid-cols-[1fr_auto]"
           >
             <div>
